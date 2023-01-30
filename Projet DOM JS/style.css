@@ -1,0 +1,135 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hwb(192 40% 3%); /* Couleur bleue allemande */
+    color: #FFFFFF; /* Couleur blanche */
+    padding: 20px;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin: 0 10px;
+  }
+  nav a {
+    color: #FFFFFF; /* Couleur blanche */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.2s;
+  }
+  a:hover {
+    background-color: white;
+    color: black;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    color: hwb(192 40% 3%);
+  }
+
+
+#cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF; /* Couleur blanche */
+    border: 1px solid whitesmoke; /* Couleur bleue  */
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .cart-item img {
+    width: 220px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 5px 0 0;
+  }
+  .heart-button {
+    cursor: pointer;
+    color: gray;
+    font-size: 1.5rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .heart-button.selected {
+    color: red;
+  }
+  .cart-item button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF; /* Couleur blanche */
+    background-color: hwb(192 40% 3%); /* Couleur bleue allemande */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  .cart-item button:hover {
+    cursor: pointer;
+    background-color: hwb(180 33% 48%); /* Couleur bleue foncée allemande */
+  }
+  .cart-item .minus-button {
+    margin-left: -50%;
+    margin-top: %;
+  }
+  .cart-item .plus-button {
+    margin-top: -14%;
+    margin-right: -60%;
+  }
+  .cart-item p {
+    font-size: larger;
+    font-weight: inherit;
+    font-style: initial;
+    color: hwb(192 2% 57%);
+  }
+  .cart-item .quantity {
+    font-size: large;
+
+  }
+  p {
+    font-size: xx-large;
+    font-weight: bold;
+    color: hwb(192 40% 3%);
+  }
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: auto;
+  background-color:hwb(192 40% 3%);
+  color: #FFFFFF;
+  margin-top: 0%;
+}
+footer h4 {
+  display: block;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+  margin-top: ;
+margin-left: 10%;  
+}
